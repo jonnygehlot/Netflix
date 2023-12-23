@@ -1,0 +1,41 @@
+@media only screen and (min-width:200px) and (max-width:575px)
+{
+    /* .row2 figure video {
+        left: 13%;
+        top: 20%;
+    }
+    .row6 figure video{
+        left: 19%;
+        top: 8%;
+    } */
+    .center{
+        margin-top: 30px;
+    }
+    #section1,
+    #section2,
+    #section3,
+    #section4,
+    #section6,
+    #section7
+    {
+        text-align: center;
+        padding: 10px;
+    }
+    .center form,
+    #section1 .row1,
+    #section6 .row1,
+    .bottom,
+    footer ul
+    {
+        gap: 30px;
+        flex-direction: column;
+    }
+    #section2 .row1,
+    #section7 .row1{
+        flex-direction: column-reverse;
+    }
+
+    footer>p:first-child{
+        text-align: center;
+    }
+}
